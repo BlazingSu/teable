@@ -144,6 +144,12 @@ More features coming soon, see our <a target="_blank" href="https://app.teable.i
 ### Deploy With Docker
 
 ```sh
+./deploy.sh
+```
+
+This script starts Teable and a Postgres instance using Docker Compose. All passwords are preset to `123456`.
+
+```sh
 cd dockers/examples/standalone/
 docker-compose up -d
 ```
