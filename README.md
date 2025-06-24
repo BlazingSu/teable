@@ -147,6 +147,10 @@ More features coming soon, see our <a target="_blank" href="https://app.teable.i
 ./deploy.sh
 ```
 
+Edit `docker-oneclick/.env` before running if the instance should be reachable
+from other machines. Change `PUBLIC_ORIGIN` to your server's domain or IP
+(for example `http://your-server-ip:3000`).
+
 This script starts Teable and a Postgres instance using Docker Compose. All passwords are preset to `123456`.
 
 ```sh
