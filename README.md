@@ -164,6 +164,9 @@ for more details, see [install teable](https://help.teable.io/en/deploy/docker)
 
 These platforms are easy to deploy with one click and come with free credits.
 
+# docker compose -f docker-oneclick/docker-compose.yaml --env-file docker-oneclick/.env down
+停止服务
+
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/wada5e?referralCode=rE4BjB)
 
 [![Deploy on Sealos](https://sealos.io/Deploy-on-Sealos.svg)](https://template.sealos.io/deploy?templateName=teable)
