@@ -4,6 +4,8 @@ This directory contains a simple setup for running **Teable** with Docker.
 
 ## Quick Start
 
+Run the helper script from the repository root:
+
 ```sh
 ./deploy.sh
 ```
